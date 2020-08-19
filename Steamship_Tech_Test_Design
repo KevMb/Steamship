@@ -1,0 +1,23 @@
+CREATE DATABASE Steamship_Tech_Test;
+
+CREATE TABLE IF NOT EXISTS Steamship_Tech_Test.Employees (
+	EmployeeId INT NOT NULL AUTO_INCREMENT,
+	EmployeeRole VARCHAR(50) NOT NULL,
+	FirstName VARCHAR(50) NOT NULL,
+	Surname VARCHAR(50) NOT NULL,
+	Email VARCHAR(50) NOT NULL,
+	LineManagerId INT NULL,
+	PRIMARY KEY (EmployeeId),
+	FOREIGN KEY (LineManagerId) REFERENCES Steamship_Tech_Test.Employees(EmployeeId)
+	
+);
+
+CREATE TABLE IF NOT EXISTS Steamship_Tech_Test.Sales (
+	SaleId INT NOT NULL AUTO_INCREMENT,
+	SaleTitle VARCHAR(250) NOT NULL,
+	SaleDescription VARCHAR(500) NOT NULL,
+	SalePrice VARCHAR(250) NOT NULL,
+	EmployeeId INT NOT NULL AUTO_INCREMENT
+	PRIMARY KEY (SaleId)
+	FOREIGN KEY (EmployeeId) REFERENCES Steamship_Tech_Test.Employees(EmployeeId)
+);
