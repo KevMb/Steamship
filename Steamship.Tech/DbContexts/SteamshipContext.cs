@@ -259,6 +259,182 @@ namespace Steamship.Tech.DbContexts
                     SaleDescription = "montes, nascetur ridiculus mus. Donec dignissim magna a tortor.",
                     SalePrice = 98.00,
                     EmployeeId = 4
+                },
+                new
+                {
+                    SaleId = 25,
+                    SaleTitle = "massa.",
+                    SaleDescription = "augue ut lacus.",
+                    SalePrice = 9999.00,
+                    EmployeeId = 4
+                },
+                new
+                {
+                    SaleId = 26,
+                    SaleTitle = "Integer aliquam adipiscing lacus. Ut nec",
+                    SaleDescription = "interdum. Sed auctor odio a purus.",
+                    SalePrice = 12345.00,
+                    EmployeeId = 1
+                },
+                new
+                {
+                    SaleId = 27,
+                    SaleTitle = "Vestibulum ante ipsum",
+                    SaleDescription = "Integer tincidunt aliquam arcu.",
+                    SalePrice = 546.00,
+                    EmployeeId = 8
+                },
+                new
+                {
+                    SaleId = 28,
+                    SaleTitle = "nec, malesuada ut, sem.",
+                    SaleDescription = "molestie in, tempus eu, ligula.",
+                    SalePrice = 400.00,
+                    EmployeeId = 4
+                },
+                new
+                {
+                    SaleId = 29,
+                    SaleTitle = "hendrerit a, arcu. Sed et libero. Proin mi. Aliquam",
+                    SaleDescription = "Nullam lobortis quam a felis ullamcorper viverra. Maecenas iaculis aliquet diam. Sed",
+                    SalePrice = 4839.00,
+                    EmployeeId = 3
+                },
+                new
+                {
+                    SaleId = 30,
+                    SaleTitle = "Nam",
+                    SaleDescription = "nec, euismod in, dolor. Fusce feugiat.",
+                    SalePrice = 345.00,
+                    EmployeeId = 7
+                },
+                new
+                {
+                    SaleId = 31,
+                    SaleTitle = "mauris. Suspendisse aliquet molestie tellus.",
+                    SaleDescription = "magna. Ut tincidunt orci quis lectus.",
+                    SalePrice = 678.00,
+                    EmployeeId = 10
+                },
+                new
+                {
+                    SaleId = 32,
+                    SaleTitle = "amet ultricies sem magna nec quam.",
+                    SaleDescription = "faucibus orci luctus et ultrices posuere cubilia Curae.",
+                    SalePrice = 5000.00,
+                    EmployeeId = 1
+                },
+                new
+                {
+                    SaleId = 33,
+                    SaleTitle = "quam. Pellentesque habitant",
+                    SaleDescription = "penatibus et magnis dis parturient montes.",
+                    SalePrice = 50.00,
+                    EmployeeId = 9
+                },
+                new
+                {
+                    SaleId = 34,
+                    SaleTitle = "lacus. Etiam bibendum fermentum metus.",
+                    SaleDescription = "eu odio tristique pharetra.",
+                    SalePrice = 8976.00,
+                    EmployeeId = 5
+                },
+                new
+                {
+                    SaleId = 35,
+                    SaleTitle = "eget",
+                    SaleDescription = "montes, nascetur ridiculus mus.",
+                    SalePrice = 25.00,
+                    EmployeeId = 11
+                },
+                new
+                {
+                    SaleId = 36,
+                    SaleTitle = "aliquam iaculis.",
+                    SaleDescription = "non, hendrerit id, ante.",
+                    SalePrice = 150.00,
+                    EmployeeId = 3
+                },
+                new
+                {
+                    SaleId = 37,
+                    SaleTitle = "mattis. Integer eu",
+                    SaleDescription = "pede, nonummy ut, molestie in, tempus eu, ligula.",
+                    SalePrice = 250.00,
+                    EmployeeId = 3
+                },
+                new
+                {
+                    SaleId = 38,
+                    SaleTitle = "neque",
+                    SaleDescription = "augue ac ipsum. Phasellus vitae mauris sit.",
+                    SalePrice = 2000.00,
+                    EmployeeId = 10
+                },
+                new
+                {
+                    SaleId = 39,
+                    SaleTitle = "et, rutrum non, hendrerit id,",
+                    SaleDescription = "a nunc. In at pede.",
+                    SalePrice = 1234.00,
+                    EmployeeId = 2
+                },
+                new
+                {
+                    SaleId = 40,
+                    SaleTitle = "interdum.",
+                    SaleDescription = "dolor elit, pellentesque a, facilisis non, bibendum sed, est.",
+                    SalePrice = 450.00,
+                    EmployeeId = 8
+                },
+                new
+                {
+                    SaleId = 41,
+                    SaleTitle = "non, luctus sit amet, faucibus ut, nulla.",
+                    SaleDescription = "ipsum. Phasellus vitae mauris sit amet.",
+                    SalePrice = 6709.00,
+                    EmployeeId = 1
+                },
+                new
+                {
+                    SaleId = 42,
+                    SaleTitle = "a sollicitudin orci",
+                    SaleDescription = "ultrices posuere cubilia Curae; Donec tincidunt.",
+                    SalePrice = 5788.00,
+                    EmployeeId = 4
+                },
+                new
+                {
+                    SaleId = 43,
+                    SaleTitle = "sit amet nulla. Donec non justo. Proin non massa",
+                    SaleDescription = "Proin velit. Sed malesuada augue ut lacus. Nulla tincidunt.",
+                    SalePrice = 350.00,
+                    EmployeeId = 7
+                },
+                new
+                {
+                    SaleId = 44,
+                    SaleTitle = "quam. Pellentesque habitant morbi tristique",
+                    SaleDescription = "sodales at, velit.",
+                    SalePrice = 999.00,
+                    EmployeeId = 2
+                },
+                new
+                {
+                    SaleId = 45,
+                    SaleTitle = "nec ligula consectetuer",
+                    SaleDescription = "risus. Donec egestas.",
+                    SalePrice = 555.00,
+                    EmployeeId = 9
+                },
+                new
+                {
+                    SaleId = 46,
+                    SaleTitle = "ut, pellentesque",
+                    SaleDescription = "sagittis placerat. Cras dictum ultricies ligula.",
+                    SalePrice = 345.00,
+                    EmployeeId = 8
                 });
         }
     }

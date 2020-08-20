@@ -125,7 +125,6 @@ D:\Projects\Steamship\Steamship.Tech\bin\Debug\netcoreapp3.1\runtimes\win-x86\na
 D:\Projects\Steamship\Steamship.Tech\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Projects\Steamship\Steamship.Tech\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Projects\Steamship\Steamship.Tech\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Projects\Steamship\Steamship.Tech\obj\Debug\netcoreapp3.1\Steamship.Tech.csprojAssemblyReference.cache
 D:\Projects\Steamship\Steamship.Tech\obj\Debug\netcoreapp3.1\Steamship.Tech.AssemblyInfoInputs.cache
 D:\Projects\Steamship\Steamship.Tech\obj\Debug\netcoreapp3.1\Steamship.Tech.AssemblyInfo.cs
 D:\Projects\Steamship\Steamship.Tech\obj\Debug\netcoreapp3.1\Steamship.Tech.csproj.CoreCompileInputs.cache

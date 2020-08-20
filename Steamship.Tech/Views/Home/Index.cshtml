@@ -4,14 +4,35 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-left">
-    <h1 class="display-4">Welcome</h1>
-    @foreach (var employee in Model)
-    {
-        <p>Employee Name: @employee.EmployeeName</p>
-        <p>Line Manager Name: @employee.LineManagerName</p>
-        <p>Total Employee Sales: @employee.TotalSales</p>
-        <p>Total Employee Sales Figure: @employee.TotalSalesFigure</p>
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
     }
+
+    th, td {
+        padding: 15px;
+    }
+</style>
+
+<div class="w-100">
+    <h1 class="display-4">Steamship</h1>
+    <table style="width:100%">
+        <tr>
+            <th>Employee Name</th>
+            <th>Line Manager Name</th>
+            <th>Total Employee Sales</th>
+            <th>Total Employee Sales Figure</th>
+        </tr>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.EmployeeName</td>
+                <td>@employee.LineManagerName</td>
+                <td>@employee.TotalSales</td>
+                <td>@employee.TotalSalesFigure</td>
+            </tr>
+        }
+    </table>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>

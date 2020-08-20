@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Steamship.Tech.DbContexts;
 
 namespace Steamship.Tech.Migrations
 {
     [DbContext(typeof(SteamshipContext))]
-    partial class SteamshipContextModelSnapshot : ModelSnapshot
+    [Migration("20200820074634_AdditionalData")]
+    partial class AdditionalData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
